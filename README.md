@@ -15,7 +15,7 @@ I have tested on:
 
 > python main.py --init_label 0 --final_label 10 path_to_StyleGAN path_to_classifier path_for_saving backbone_of_classifier classifier_output_dim
 
-### Or training your own models: 
+### or training your own models: 
 
 - train a StyleGAN first, please refer to https://github.com/NVlabs/stylegan2 and https://github.com/rosinality/stylegan2-pytorch
 - train target classifier:

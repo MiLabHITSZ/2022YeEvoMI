@@ -38,7 +38,7 @@ I have tested on:
  
  *T. Karras, et al. "Analyzing and improving the image quality of stylegan," in CVPR, 2020.*
  
- *A. G. Howard, et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications," arXiv preprint arXiv:1704.04861, 2017.*
+ *A. G. Howard, et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications," arXiv preprint, 2017.*
  
  *C. Szegedy, et al. "Inception-v4, inception-resnet and the impact of residual connections on learning," in AAAI, 2017.*
  

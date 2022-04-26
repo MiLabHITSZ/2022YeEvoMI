@@ -36,7 +36,11 @@ I have tested on:
  
  # REFERENCES
  
- *T. Karras, et al., "Analyzing and improving the image quality of stylegan", in CVPR, 2020.*
+ *T. Karras, et al. "Analyzing and improving the image quality of stylegan," in CVPR, 2020.*
+ 
+ *A. G. Howard, et al. "Mobilenets: Efficient convolutional neural networks for mobile vision applications," arXiv preprint arXiv:1704.04861, 2017.*
+ 
+ *C. Szegedy, et al. "Inception-v4, inception-resnet and the impact of residual connections on learning," in AAAI, 2017.*
  
  *https://github.com/rosinality/stylegan2-pytorch*
  

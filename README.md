@@ -11,7 +11,7 @@ I have tested on:
 
 # Usage
 
-### If there is already a trained StyleGAN and target classifier, attack from label-0 to label-9:
+### If there is already a trained StyleGAN and target classifier, example of attacking from label-0 to label-9:
 
 > python main.py --init_label 0 --final_label 10 path_to_StyleGAN path_to_classifier path_for_saving backbone_of_classifier classifier_output_dim
 

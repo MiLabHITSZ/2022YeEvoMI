@@ -2,12 +2,14 @@
 
 Implementation of paper *"Z. Ye, W, Luo and Z. Zhang, Evolutionary Model Inversion Attack."*
 
+
 # Requirements
 
 I have tested on:
 
 - PyTorch 1.11.0
 - CUDA 11.4
+
 
 # Usage
 
@@ -33,6 +35,7 @@ I have tested on:
   2. CASIA-WebFace & MobileNet: https://huggingface.co/ZipZip/Model_EvoMI/resolve/main/CASIA_MobileNet.pth;
   3. FaceScrub & InceptionResNet: https://huggingface.co/ZipZip/Model_EvoMI/resolve/main/FaceScrub_InceptionResnetV1.pth;
   4. FaceScrub & MobileNet: https://huggingface.co/ZipZip/Model_EvoMI/resolve/main/FaceScrub_MobileNet.pth.
+ 
  
  # REFERENCES
  

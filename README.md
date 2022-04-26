@@ -1,6 +1,6 @@
 # Evolutionary Model Inversion Attack
 
-Implementation of paper *Z. Ye, W, Luo and Z. Zhang, Evolutionary Model Inversion Attack.*
+Implementation of paper *"Z. Ye, W, Luo and Z. Zhang, Evolutionary Model Inversion Attack."*
 
 # Requirements
 

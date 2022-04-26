@@ -37,5 +37,6 @@ I have tested on:
  # REFERENCES
  
  *T. Karras, et al., "Analyzing and improving the image quality of stylegan", in CVPR, 2020.*
- **
+ 
+ *https://github.com/rosinality/stylegan2-pytorch*
  

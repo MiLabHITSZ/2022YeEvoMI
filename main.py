@@ -218,7 +218,7 @@ if __name__ == '__main__':
     parser.add_argument('gan_path', type=str, help='path to styleGAN2')
     parser.add_argument('target_classifier_path', type=str, help='path to target classifier')
     parser.add_argument('save_dir', type=str, help='path to save attacked image')
-    parser.add_argument('backbone', type=str, help='backbone of target model')
+    parser.add_argument('backbone', type=str, help='backbone of target model: `mobile_net` or `inception_resnetv1` ')
     parser.add_argument('num_classes', type=int, help='total classes of target model')
 
     args = parser.parse_args()

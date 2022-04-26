@@ -24,7 +24,7 @@ I have tested on:
   2. run `train_facenet.py` to train a target classifier;
   3. run `main.py` as above.
 
-### or using our trained model directly:
+### or using our trained models directly:
 
 - StyleGAN2: https://huggingface.co/ZipZip/Model_EvoMI/resolve/main/100000.pt.
 - Target Classifiers (dataset & backbone):

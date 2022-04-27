@@ -39,14 +39,10 @@ c_max = len(lines)-1
 
 for label in tqdm(range(all_id)):
     label_ = label
-    img_path      = f'{img_dir}/zn-label{label_}-step300.jpg'
-    # img_path      = f'{img_dir}/z1-label{label_}-step300.jpg'
-    # img_path      = f'{img_dir}/label{label_}-post500.jpg'
+    img_path      = f'{img_dir}/label{label_}.jpg'
     img = Image.open(img_path)
     _, cropped = detect_crop_face(img, detector)
     face_input = facenet_input_preprocessing(cropped,(160,160)).to(device)
-    row, col = 1,1
-    # face_input = facenet_input_preprocessing(img,(160,160)).to(device)
 
     tmp_dir = []
     ct2     = 0

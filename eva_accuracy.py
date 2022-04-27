@@ -30,12 +30,11 @@ acc_number = 0
 top5_acc_number = 0
 conf_sum   = 0
 for label in tqdm(range(all_id)):
-    label_ = label+00
-    img_path      = f'{img_dir}label{label_}-post500.jpg'
+    label_ = label
+    img_path      = f'{img_dir}/label{label_}.jpg'
     img = Image.open(img_path)
     _, cropped = detect_crop_face(img, detector)
     face_input = facenet_input_preprocessing(cropped,(160,160)).to(device)
-    row, col = 1,1
 
     before_norm, outputs1 = test_model.forward_feature(face_input)
     prediction = test_model.forward_classifier(before_norm)

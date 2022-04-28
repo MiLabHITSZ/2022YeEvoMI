@@ -200,7 +200,7 @@ def inversion_attack(args, generator, target_model, target_label, latent_in,
 
 if __name__ == '__main__':
     #---------------------------------------------------
-    # parameters
+    # arguments
     parser = argparse.ArgumentParser(description='Evolutionary Model Inversion Attack')
     parser.add_argument('--device', type=str, default='cuda')
     parser.add_argument('--n_mean_latent', type=int, default=10000)

@@ -8,7 +8,7 @@ Implementation of paper *"Z. Ye, W, Luo and Z. Zhang, Evolutionary Model Inversi
 I have tested on:
 
 - PyTorch 1.11.0
-- CUDA 11.4
+- CUDA 10.2
 
 
 # Usage
